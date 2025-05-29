@@ -1,5 +1,6 @@
 'use client';
 
+import { Search } from 'iconoir-react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
@@ -28,7 +29,7 @@ export default function SearchBox() {
     className='flex-1 bg-transparent outline-none'
    />
    <button className='cursor-pointer'>
-    <Image src='/search.png' alt='' width={16} height={16} />
+    <Search width={18} height={18} />
    </button>
   </form>
  );

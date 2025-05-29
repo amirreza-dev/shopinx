@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 export default function CartModal() {
  const cartItems = true;
+
  return (
   <div className='w-max absolute p-4 rounded-md shadow-md bg-white top-12 right-0 flex flex-col gap-6 z-20'>
    {!cartItems ? (
@@ -15,7 +16,7 @@ export default function CartModal() {
       {/* Cart Item */}
       <div className='flex gap-4'>
        <Image
-        src='/woman.png'
+        src='/slider/02.jpeg'
         alt=''
         width={72}
         height={96}
